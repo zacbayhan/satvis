@@ -22,6 +22,11 @@ cc.sats.addFromTleUrl("data/tle/norad/science.txt", ["Science"]);
 cc.sats.addFromTleUrl("data/tle/norad/stations.txt", ["Stations"]);
 cc.sats.addFromTleUrl("data/tle/norad/weather.txt", ["Weather"]);
 
+cc.sats.addFromTleUrl("data/tle/ext/ot576-24.txt", ["OT576-24"]);
+cc.sats.addFromTleUrl("data/tle/ext/ot288-24.txt", ["OT288-24"]);
+cc.sats.addFromTleUrl("data/tle/ext/ot288-12.txt", ["OT288-12"]);
+cc.sats.addFromTleUrl("data/tle/ext/ot144-12.txt", ["OT144-12"]);
+
 cc.sats.addFromTleUrl("data/tle/ext/move.txt", ["MOVE"]);
 if (cc.sats.enabledTags.length === 0) {
   cc.sats.enableTag("MOVE");
