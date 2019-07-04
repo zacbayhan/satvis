@@ -28,6 +28,7 @@ cc.sats.addFromTleUrl("data/tle/ext/ot288-12.txt", ["OT288-12"]);
 cc.sats.addFromTleUrl("data/tle/ext/ot144-12.txt", ["OT144-12"]);
 
 cc.sats.addFromTleUrl("data/tle/ext/move.txt", ["MOVE"]);
+cc.sats.addFromTleUrl("data/tle/ext/move2.txt", ["MOVE2"]);
 if (cc.sats.enabledTags.length === 0) {
   cc.sats.enableTag("MOVE");
 }
