@@ -45,7 +45,7 @@ if (cc.sats.enabledTags.length === 0) {
   // cc.sats.enableTag("OT144-12");
   // cc.sats.enableTag("Globalstar");
   // cc.sats.disableComponent("Label");
-  // cc.imageryProvider = "ArcGis";
+  cc.imageryProvider = "ArcGis";
   // setTimeout(() => {
   //   cc.sats.getSatellitesWithTag("OT144-12").forEach((sat) => { sat.enableComponent("Orbit"); sat.enableComponent("Sensor cone"); });
   //   cc.sats.getSatellitesWithTag("OT144-12").forEach((sat) => { sat.entities.Orbit.path.material = Cesium.Color.WHITE.withAlpha(0.01); });

@@ -30,10 +30,11 @@ cc.sats.addFromTleUrl("data/tle/norad/science.txt", ["Science"]);
 cc.sats.addFromTleUrl("data/tle/norad/stations.txt", ["Stations"]);
 cc.sats.addFromTleUrl("data/tle/norad/weather.txt", ["Weather"]);
 cc.sats.addFromTleUrl("data/tle/norad/tle-new.txt", ["New"]);
+cc.sats.addFromTleUrl("data/tle/norad/iridium.txt", ["Iridum"]);
 
 cc.sats.addFromTleUrl("data/tle/ext/move.txt", ["MOVE"]);
 if (cc.sats.enabledTags.length === 0) {
-  cc.sats.enableTag("MOVE");
+  cc.sats.enableTag("Iridum"); //this constilation is active
 }
 
 // Register service worker
