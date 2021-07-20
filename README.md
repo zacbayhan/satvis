@@ -3,6 +3,8 @@
 Satellite orbit visualization and pass prediction.
 
 ![Screenshot](https://user-images.githubusercontent.com/1117666/47623704-f0c3e900-db14-11e8-9cf9-7bf13acb267c.png)
+![Video](satviz-demo.mp4)
+
 
 ## Features
 - Calculate position and orbit of satellites from TLE
